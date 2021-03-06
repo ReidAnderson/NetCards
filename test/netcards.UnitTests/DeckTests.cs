@@ -34,7 +34,6 @@ namespace NetCards.UnitTests
 
             Assert.IsNotNull(drawnCard);
             Assert.IsTrue(drawnCard.Values.Count > 0);
-            Assert.AreEqual(testDeck.CardsLeft(), 51);
         }
 
         [TestMethod]

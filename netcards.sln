@@ -7,9 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC7F01F8-A08
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{00FE1D0A-CDF2-4956-9F71-BFEF2FEDE63D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netcards.UnitTests", "test\netcards.UnitTests\netcards.UnitTests.csproj", "{3904E179-2B0C-41A0-B969-F2BDF34CE8D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "netcards.UnitTests", "test\netcards.UnitTests\netcards.UnitTests.csproj", "{3904E179-2B0C-41A0-B969-F2BDF34CE8D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCards.Base", "src\NetCards.Base\NetCards.Base.csproj", "{025EB144-BBBA-48D7-9BD3-75B24410E03B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCards.Base", "src\NetCards.Base\NetCards.Base.csproj", "{025EB144-BBBA-48D7-9BD3-75B24410E03B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCards.Cribbage", "src\NetCards.Cribbage\NetCards.Cribbage.csproj", "{F83175D9-8621-4F01-A74B-4DA740882853}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3904E179-2B0C-41A0-B969-F2BDF34CE8D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -48,9 +47,28 @@ Global
 		{025EB144-BBBA-48D7-9BD3-75B24410E03B}.Release|x64.Build.0 = Release|Any CPU
 		{025EB144-BBBA-48D7-9BD3-75B24410E03B}.Release|x86.ActiveCfg = Release|Any CPU
 		{025EB144-BBBA-48D7-9BD3-75B24410E03B}.Release|x86.Build.0 = Release|Any CPU
+		{F83175D9-8621-4F01-A74B-4DA740882853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83175D9-8621-4F01-A74B-4DA740882853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83175D9-8621-4F01-A74B-4DA740882853}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F83175D9-8621-4F01-A74B-4DA740882853}.Debug|x64.Build.0 = Debug|Any CPU
+		{F83175D9-8621-4F01-A74B-4DA740882853}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F83175D9-8621-4F01-A74B-4DA740882853}.Debug|x86.Build.0 = Debug|Any CPU
+		{F83175D9-8621-4F01-A74B-4DA740882853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83175D9-8621-4F01-A74B-4DA740882853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F83175D9-8621-4F01-A74B-4DA740882853}.Release|x64.ActiveCfg = Release|Any CPU
+		{F83175D9-8621-4F01-A74B-4DA740882853}.Release|x64.Build.0 = Release|Any CPU
+		{F83175D9-8621-4F01-A74B-4DA740882853}.Release|x86.ActiveCfg = Release|Any CPU
+		{F83175D9-8621-4F01-A74B-4DA740882853}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3904E179-2B0C-41A0-B969-F2BDF34CE8D5} = {00FE1D0A-CDF2-4956-9F71-BFEF2FEDE63D}
 		{025EB144-BBBA-48D7-9BD3-75B24410E03B} = {FC7F01F8-A085-458C-AC13-6412DF9F20E5}
+		{F83175D9-8621-4F01-A74B-4DA740882853} = {FC7F01F8-A085-458C-AC13-6412DF9F20E5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1C2BB05-5883-4DD3-B06C-DBA900847C4D}
 	EndGlobalSection
 EndGlobal

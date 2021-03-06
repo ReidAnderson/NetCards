@@ -2,7 +2,6 @@ using System.Collections.Generic;
 
 namespace NetCards.Base
 {
-    /// <summary>A base card representation</summary>
     public class Card
     {
         public Card(FaceValue faceValue, Suit suit, DeckType deckType) {
@@ -19,9 +18,9 @@ namespace NetCards.Base
             }
         }
 
-        public FaceValue Name { get; }
-        public List<int> Values { get; }
-        public List<int> SortValues { get; }
-        public Suit Suit { get; }
+        public FaceValue Name { get; set; }
+        public List<int> Values { get; set; }
+        public List<int> SortValues { get; set; }
+        public Suit Suit { get; set; }
     }
 }
